@@ -13,6 +13,19 @@
   align-items: center;
   min-height: 100vh;
 }
+.resume-cv h5 {
+  color: #3590d2;
+}
+.resume-cv h4 {
+  color: #333;
+  font-weight: 500;
+  margin: 5px 0;
+}
+.resume-cv h6 {
+  color: #666;
+  font-weight: 300;
+  font-size: 1em;
+}
 .resume-cv .container {
   position: relative;
   width: 100%;
@@ -71,4 +84,95 @@
   font-size: 0.5em;
   font-weight: 300;
   top: -10px;
+}
+.resume-cv .container .content-box {
+  position: relative;
+  min-height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 0 40px 40px;
+}
+.resume-cv .container .content-box h3 {
+  border-left: 4px solid #ff8bb3;
+  padding-left: 10px;
+  line-height: 1em;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.resume-cv .container .content-box ul {
+  position: relative;
+  margin: 10px 0;
+}
+.resume-cv .container .content-box ul li {
+  list-style: none;
+  margin: 25px 0;
+  line-height: 1em;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+}
+.resume-cv .container .content-box ul li ion-icon {
+  font-size: 1.2em;
+  margin-right: 10px;
+  color: #3590d2;
+}
+.resume-cv .container .content-box .education li {
+  flex-direction: column;
+  margin: 25px 0;
+}
+.resume-cv .container .content-box .language li {
+  flex-direction: column;
+}
+.resume-cv .container .content-box .language li span {
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
+.resume-cv .container .content-box .language li .percent {
+  position: relative;
+  width: 100%;
+  background-color: #e3e3e3;
+  height: 6px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: block;
+  overflow: hidden;
+}
+.resume-cv .container .content-box .language li .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #3590d2;
+}
+.resume-cv .container .content-box .interests {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.resume-cv .container .content-box .interests li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+.resume-cv .container .content-box .interests li .icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #3590d2;
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resume-cv .container .content-box .interests li .icon ion-icon {
+  color: #fff;
+  margin-right: 0;
 }/*# sourceMappingURL=style.css.map */
