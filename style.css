@@ -26,6 +26,9 @@
   font-weight: 300;
   font-size: 1em;
 }
+.resume-cv p {
+  font-weight: 300;
+}
 .resume-cv .container {
   position: relative;
   width: 100%;
@@ -175,4 +178,54 @@
 .resume-cv .container .content-box .interests li .icon ion-icon {
   color: #fff;
   margin-right: 0;
+}
+.resume-cv .container .content-box .right-side {
+  padding-left: 40px;
+}
+.resume-cv .container .content-box .right-side .about .box {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+.resume-cv .container .content-box .right-side .about .box .year-company {
+  min-width: 150px;
+  margin-bottom: 10px;
+}
+.resume-cv .container .content-box .right-side .about .box .year-company h5 {
+  color: #333;
+  font-weight: 600;
+}
+.resume-cv .container .content-box .right-side .about .box .year-company h5:nth-child(1) {
+  color: #3590d2;
+}
+.resume-cv .container .content-box .right-side .about .box .text h4 {
+  color: #3590d2;
+  font-size: 16px;
+  margin: 0;
+}
+.resume-cv .container .content-box .right-side .about.skills .box {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.resume-cv .container .content-box .right-side .about.skills .box h4 {
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.resume-cv .container .content-box .right-side .about.skills .box .percent {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background-color: #e3e3e3;
+}
+.resume-cv .container .content-box .right-side .about.skills .box .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #3590d2;
 }/*# sourceMappingURL=style.css.map */
